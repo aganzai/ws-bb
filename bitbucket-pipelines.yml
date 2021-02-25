@@ -1,0 +1,19 @@
+image: atlassian/default-image:2
+    
+pipelines:
+  custom:
+    run_web_script:
+      - step:
+          script:
+            - cat ./run.sh | bash -s
+#    test:
+#      - step:
+#          script:
+#            - echo "test"
+
+
+
+
+
+
+
